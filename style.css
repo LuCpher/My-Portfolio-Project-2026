@@ -159,7 +159,7 @@
             line-height: 1.6;
         }
 
-        .home-content social-icons {
+        .home-content .social-icons {
             display: flex;
             gap: 20px;
         }
