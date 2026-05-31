@@ -740,3 +740,10 @@
                 font-size:3rem;
                 color: #4a0101;
             }
+
+        @media (max-width: 768px) {
+            .project-cards { grid-template-columns: 1fr; }
+            .about-cards { grid-template-columns: 1fr; }
+            .home { flex-direction: column; gap: 40px; }
+            .learning-reflection-text { flex-direction: column; }
+        }
